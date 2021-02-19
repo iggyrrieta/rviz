@@ -1,0 +1,19 @@
+{
+  "configurations": [
+    {
+      "browse": {
+        "databaseFilename": "",
+        "limitSymbolsToIncludedHeaders": true
+      },
+      "includePath": [
+        "/home/iggy/ros/foxy/src/rviz/rviz_common/include/**",
+        "/home/iggy/ros/foxy/src/rviz/rviz_default_plugins/include/**",
+        "/home/iggy/ros/foxy/src/rviz/rviz_rendering/include/**",
+        "/home/iggy/ros/foxy/src/rviz/rviz_visual_testing_framework/include/**",
+        "/usr/include/**"
+      ],
+      "name": "ROS"
+    }
+  ],
+  "version": 4
+}

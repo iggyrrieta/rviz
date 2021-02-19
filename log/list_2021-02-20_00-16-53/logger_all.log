@@ -1,0 +1,142 @@
+[0.763s] DEBUG:colcon:Command line arguments: ['/home/iggy/.pyenv/versions/ros-foxy/bin/colcon', 'list', '-p', '--base-paths', '/home/iggy/ros/foxy/src/rviz']
+[0.763s] DEBUG:colcon:Parsed command line arguments: Namespace(base_paths=['/home/iggy/ros/foxy/src/rviz'], build_base='build', ignore_user_meta=False, log_base=None, log_level=None, main=<bound method ListVerb.main of <colcon_package_information.verb.list.ListVerb object at 0x7faf2a4844c0>>, metas=['./colcon.meta'], names_only=False, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_end=None, packages_ignore=None, packages_ignore_regex=None, packages_select=None, packages_select_build_failed=False, packages_select_by_dep=None, packages_select_regex=None, packages_select_test_failures=False, packages_skip=None, packages_skip_build_finished=False, packages_skip_by_dep=None, packages_skip_regex=None, packages_skip_test_passed=False, packages_skip_up_to=None, packages_start=None, packages_up_to=None, packages_up_to_regex=None, paths=None, paths_only=True, topological_graph=False, topological_graph_density=False, topological_graph_dot=False, topological_graph_dot_cluster=False, topological_graph_dot_include_skipped=False, topological_graph_legend=False, topological_order=False, verb_extension=<colcon_package_information.verb.list.ListVerb object at 0x7faf2a4844c0>, verb_name='list', verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7faf29facd30>)
+[0.831s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.831s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.831s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.831s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.831s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.832s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/iggy/ros/foxy/src/rviz'
+[0.832s] Level 1:colcon.colcon_core.package_identification:_identify(/home/iggy/ros/foxy/src/rviz) by extensions ['ignore', 'ignore_ament_install']
+[0.832s] Level 1:colcon.colcon_core.package_identification:_identify(/home/iggy/ros/foxy/src/rviz) by extension 'ignore'
+[0.832s] Level 1:colcon.colcon_core.package_identification:_identify(/home/iggy/ros/foxy/src/rviz) by extension 'ignore_ament_install'
+[0.832s] Level 1:colcon.colcon_core.package_identification:_identify(/home/iggy/ros/foxy/src/rviz) by extensions ['colcon_pkg']
+[0.832s] Level 1:colcon.colcon_core.package_identification:_identify(/home/iggy/ros/foxy/src/rviz) by extension 'colcon_pkg'
+[0.832s] Level 1:colcon.colcon_core.package_identification:_identify(/home/iggy/ros/foxy/src/rviz) by extensions ['colcon_meta']
+[0.832s] Level 1:colcon.colcon_core.package_identification:_identify(/home/iggy/ros/foxy/src/rviz) by extension 'colcon_meta'
+[0.833s] Level 1:colcon.colcon_core.package_identification:_identify(/home/iggy/ros/foxy/src/rviz) by extensions ['ament_gradle']
+[0.833s] Level 1:colcon.colcon_core.package_identification:_identify(/home/iggy/ros/foxy/src/rviz) by extension 'ament_gradle'
+[0.833s] Level 1:colcon.colcon_core.package_identification:_identify(/home/iggy/ros/foxy/src/rviz) by extensions ['ros']
+[0.833s] Level 1:colcon.colcon_core.package_identification:_identify(/home/iggy/ros/foxy/src/rviz) by extension 'ros'
+[0.865s] Level 1:colcon.colcon_core.package_identification:_identify(/home/iggy/ros/foxy/src/rviz) by extensions ['cmake', 'gradle', 'python']
+[0.865s] Level 1:colcon.colcon_core.package_identification:_identify(/home/iggy/ros/foxy/src/rviz) by extension 'cmake'
+[0.865s] Level 1:colcon.colcon_core.package_identification:_identify(/home/iggy/ros/foxy/src/rviz) by extension 'gradle'
+[0.866s] Level 1:colcon.colcon_core.package_identification:_identify(/home/iggy/ros/foxy/src/rviz) by extension 'python'
+[0.866s] Level 1:colcon.colcon_core.package_identification:_identify(/home/iggy/ros/foxy/src/rviz) by extensions ['python_setup_py']
+[0.866s] Level 1:colcon.colcon_core.package_identification:_identify(/home/iggy/ros/foxy/src/rviz) by extension 'python_setup_py'
+[0.866s] Level 1:colcon.colcon_core.package_identification:_identify(/home/iggy/ros/foxy/src/rviz/docs) by extensions ['ignore', 'ignore_ament_install']
+[0.866s] Level 1:colcon.colcon_core.package_identification:_identify(/home/iggy/ros/foxy/src/rviz/docs) by extension 'ignore'
+[0.866s] Level 1:colcon.colcon_core.package_identification:_identify(/home/iggy/ros/foxy/src/rviz/docs) by extension 'ignore_ament_install'
+[0.866s] Level 1:colcon.colcon_core.package_identification:_identify(/home/iggy/ros/foxy/src/rviz/docs) by extensions ['colcon_pkg']
+[0.866s] Level 1:colcon.colcon_core.package_identification:_identify(/home/iggy/ros/foxy/src/rviz/docs) by extension 'colcon_pkg'
+[0.866s] Level 1:colcon.colcon_core.package_identification:_identify(/home/iggy/ros/foxy/src/rviz/docs) by extensions ['colcon_meta']
+[0.867s] Level 1:colcon.colcon_core.package_identification:_identify(/home/iggy/ros/foxy/src/rviz/docs) by extension 'colcon_meta'
+[0.867s] Level 1:colcon.colcon_core.package_identification:_identify(/home/iggy/ros/foxy/src/rviz/docs) by extensions ['ament_gradle']
+[0.867s] Level 1:colcon.colcon_core.package_identification:_identify(/home/iggy/ros/foxy/src/rviz/docs) by extension 'ament_gradle'
+[0.867s] Level 1:colcon.colcon_core.package_identification:_identify(/home/iggy/ros/foxy/src/rviz/docs) by extensions ['ros']
+[0.867s] Level 1:colcon.colcon_core.package_identification:_identify(/home/iggy/ros/foxy/src/rviz/docs) by extension 'ros'
+[0.867s] Level 1:colcon.colcon_core.package_identification:_identify(/home/iggy/ros/foxy/src/rviz/docs) by extensions ['cmake', 'gradle', 'python']
+[0.867s] Level 1:colcon.colcon_core.package_identification:_identify(/home/iggy/ros/foxy/src/rviz/docs) by extension 'cmake'
+[0.867s] Level 1:colcon.colcon_core.package_identification:_identify(/home/iggy/ros/foxy/src/rviz/docs) by extension 'gradle'
+[0.867s] Level 1:colcon.colcon_core.package_identification:_identify(/home/iggy/ros/foxy/src/rviz/docs) by extension 'python'
+[0.867s] Level 1:colcon.colcon_core.package_identification:_identify(/home/iggy/ros/foxy/src/rviz/docs) by extensions ['python_setup_py']
+[0.867s] Level 1:colcon.colcon_core.package_identification:_identify(/home/iggy/ros/foxy/src/rviz/docs) by extension 'python_setup_py'
+[0.868s] Level 1:colcon.colcon_core.package_identification:_identify(/home/iggy/ros/foxy/src/rviz/log) by extensions ['ignore', 'ignore_ament_install']
+[0.868s] Level 1:colcon.colcon_core.package_identification:_identify(/home/iggy/ros/foxy/src/rviz/log) by extension 'ignore'
+[0.868s] Level 1:colcon.colcon_core.package_identification:_identify(/home/iggy/ros/foxy/src/rviz/log) ignored
+[0.868s] Level 1:colcon.colcon_core.package_identification:_identify(/home/iggy/ros/foxy/src/rviz/rviz2) by extensions ['ignore', 'ignore_ament_install']
+[0.868s] Level 1:colcon.colcon_core.package_identification:_identify(/home/iggy/ros/foxy/src/rviz/rviz2) by extension 'ignore'
+[0.868s] Level 1:colcon.colcon_core.package_identification:_identify(/home/iggy/ros/foxy/src/rviz/rviz2) by extension 'ignore_ament_install'
+[0.868s] Level 1:colcon.colcon_core.package_identification:_identify(/home/iggy/ros/foxy/src/rviz/rviz2) by extensions ['colcon_pkg']
+[0.869s] Level 1:colcon.colcon_core.package_identification:_identify(/home/iggy/ros/foxy/src/rviz/rviz2) by extension 'colcon_pkg'
+[0.869s] Level 1:colcon.colcon_core.package_identification:_identify(/home/iggy/ros/foxy/src/rviz/rviz2) by extensions ['colcon_meta']
+[0.869s] Level 1:colcon.colcon_core.package_identification:_identify(/home/iggy/ros/foxy/src/rviz/rviz2) by extension 'colcon_meta'
+[0.869s] Level 1:colcon.colcon_core.package_identification:_identify(/home/iggy/ros/foxy/src/rviz/rviz2) by extensions ['ament_gradle']
+[0.869s] Level 1:colcon.colcon_core.package_identification:_identify(/home/iggy/ros/foxy/src/rviz/rviz2) by extension 'ament_gradle'
+[0.869s] Level 1:colcon.colcon_core.package_identification:_identify(/home/iggy/ros/foxy/src/rviz/rviz2) by extensions ['ros']
+[0.869s] Level 1:colcon.colcon_core.package_identification:_identify(/home/iggy/ros/foxy/src/rviz/rviz2) by extension 'ros'
+[0.874s] DEBUG:colcon.colcon_core.package_identification:Package '/home/iggy/ros/foxy/src/rviz/rviz2' with type 'ros.ament_cmake' and name 'rviz2'
+[0.874s] Level 1:colcon.colcon_core.package_identification:_identify(/home/iggy/ros/foxy/src/rviz/rviz_assimp_vendor) by extensions ['ignore', 'ignore_ament_install']
+[0.875s] Level 1:colcon.colcon_core.package_identification:_identify(/home/iggy/ros/foxy/src/rviz/rviz_assimp_vendor) by extension 'ignore'
+[0.875s] Level 1:colcon.colcon_core.package_identification:_identify(/home/iggy/ros/foxy/src/rviz/rviz_assimp_vendor) by extension 'ignore_ament_install'
+[0.875s] Level 1:colcon.colcon_core.package_identification:_identify(/home/iggy/ros/foxy/src/rviz/rviz_assimp_vendor) by extensions ['colcon_pkg']
+[0.875s] Level 1:colcon.colcon_core.package_identification:_identify(/home/iggy/ros/foxy/src/rviz/rviz_assimp_vendor) by extension 'colcon_pkg'
+[0.875s] Level 1:colcon.colcon_core.package_identification:_identify(/home/iggy/ros/foxy/src/rviz/rviz_assimp_vendor) by extensions ['colcon_meta']
+[0.875s] Level 1:colcon.colcon_core.package_identification:_identify(/home/iggy/ros/foxy/src/rviz/rviz_assimp_vendor) by extension 'colcon_meta'
+[0.876s] Level 1:colcon.colcon_core.package_identification:_identify(/home/iggy/ros/foxy/src/rviz/rviz_assimp_vendor) by extensions ['ament_gradle']
+[0.876s] Level 1:colcon.colcon_core.package_identification:_identify(/home/iggy/ros/foxy/src/rviz/rviz_assimp_vendor) by extension 'ament_gradle'
+[0.876s] Level 1:colcon.colcon_core.package_identification:_identify(/home/iggy/ros/foxy/src/rviz/rviz_assimp_vendor) by extensions ['ros']
+[0.876s] Level 1:colcon.colcon_core.package_identification:_identify(/home/iggy/ros/foxy/src/rviz/rviz_assimp_vendor) by extension 'ros'
+[0.877s] DEBUG:colcon.colcon_core.package_identification:Package '/home/iggy/ros/foxy/src/rviz/rviz_assimp_vendor' with type 'ros.ament_cmake' and name 'rviz_assimp_vendor'
+[0.878s] Level 1:colcon.colcon_core.package_identification:_identify(/home/iggy/ros/foxy/src/rviz/rviz_common) by extensions ['ignore', 'ignore_ament_install']
+[0.878s] Level 1:colcon.colcon_core.package_identification:_identify(/home/iggy/ros/foxy/src/rviz/rviz_common) by extension 'ignore'
+[0.878s] Level 1:colcon.colcon_core.package_identification:_identify(/home/iggy/ros/foxy/src/rviz/rviz_common) by extension 'ignore_ament_install'
+[0.879s] Level 1:colcon.colcon_core.package_identification:_identify(/home/iggy/ros/foxy/src/rviz/rviz_common) by extensions ['colcon_pkg']
+[0.879s] Level 1:colcon.colcon_core.package_identification:_identify(/home/iggy/ros/foxy/src/rviz/rviz_common) by extension 'colcon_pkg'
+[0.879s] Level 1:colcon.colcon_core.package_identification:_identify(/home/iggy/ros/foxy/src/rviz/rviz_common) by extensions ['colcon_meta']
+[0.879s] Level 1:colcon.colcon_core.package_identification:_identify(/home/iggy/ros/foxy/src/rviz/rviz_common) by extension 'colcon_meta'
+[0.879s] Level 1:colcon.colcon_core.package_identification:_identify(/home/iggy/ros/foxy/src/rviz/rviz_common) by extensions ['ament_gradle']
+[0.879s] Level 1:colcon.colcon_core.package_identification:_identify(/home/iggy/ros/foxy/src/rviz/rviz_common) by extension 'ament_gradle'
+[0.879s] Level 1:colcon.colcon_core.package_identification:_identify(/home/iggy/ros/foxy/src/rviz/rviz_common) by extensions ['ros']
+[0.879s] Level 1:colcon.colcon_core.package_identification:_identify(/home/iggy/ros/foxy/src/rviz/rviz_common) by extension 'ros'
+[0.883s] DEBUG:colcon.colcon_core.package_identification:Package '/home/iggy/ros/foxy/src/rviz/rviz_common' with type 'ros.ament_cmake' and name 'rviz_common'
+[0.883s] Level 1:colcon.colcon_core.package_identification:_identify(/home/iggy/ros/foxy/src/rviz/rviz_default_plugins) by extensions ['ignore', 'ignore_ament_install']
+[0.883s] Level 1:colcon.colcon_core.package_identification:_identify(/home/iggy/ros/foxy/src/rviz/rviz_default_plugins) by extension 'ignore'
+[0.883s] Level 1:colcon.colcon_core.package_identification:_identify(/home/iggy/ros/foxy/src/rviz/rviz_default_plugins) by extension 'ignore_ament_install'
+[0.884s] Level 1:colcon.colcon_core.package_identification:_identify(/home/iggy/ros/foxy/src/rviz/rviz_default_plugins) by extensions ['colcon_pkg']
+[0.884s] Level 1:colcon.colcon_core.package_identification:_identify(/home/iggy/ros/foxy/src/rviz/rviz_default_plugins) by extension 'colcon_pkg'
+[0.884s] Level 1:colcon.colcon_core.package_identification:_identify(/home/iggy/ros/foxy/src/rviz/rviz_default_plugins) by extensions ['colcon_meta']
+[0.884s] Level 1:colcon.colcon_core.package_identification:_identify(/home/iggy/ros/foxy/src/rviz/rviz_default_plugins) by extension 'colcon_meta'
+[0.884s] Level 1:colcon.colcon_core.package_identification:_identify(/home/iggy/ros/foxy/src/rviz/rviz_default_plugins) by extensions ['ament_gradle']
+[0.884s] Level 1:colcon.colcon_core.package_identification:_identify(/home/iggy/ros/foxy/src/rviz/rviz_default_plugins) by extension 'ament_gradle'
+[0.884s] Level 1:colcon.colcon_core.package_identification:_identify(/home/iggy/ros/foxy/src/rviz/rviz_default_plugins) by extensions ['ros']
+[0.884s] Level 1:colcon.colcon_core.package_identification:_identify(/home/iggy/ros/foxy/src/rviz/rviz_default_plugins) by extension 'ros'
+[0.888s] DEBUG:colcon.colcon_core.package_identification:Package '/home/iggy/ros/foxy/src/rviz/rviz_default_plugins' with type 'ros.ament_cmake' and name 'rviz_default_plugins'
+[0.888s] Level 1:colcon.colcon_core.package_identification:_identify(/home/iggy/ros/foxy/src/rviz/rviz_ogre_vendor) by extensions ['ignore', 'ignore_ament_install']
+[0.888s] Level 1:colcon.colcon_core.package_identification:_identify(/home/iggy/ros/foxy/src/rviz/rviz_ogre_vendor) by extension 'ignore'
+[0.889s] Level 1:colcon.colcon_core.package_identification:_identify(/home/iggy/ros/foxy/src/rviz/rviz_ogre_vendor) by extension 'ignore_ament_install'
+[0.889s] Level 1:colcon.colcon_core.package_identification:_identify(/home/iggy/ros/foxy/src/rviz/rviz_ogre_vendor) by extensions ['colcon_pkg']
+[0.889s] Level 1:colcon.colcon_core.package_identification:_identify(/home/iggy/ros/foxy/src/rviz/rviz_ogre_vendor) by extension 'colcon_pkg'
+[0.889s] Level 1:colcon.colcon_core.package_identification:_identify(/home/iggy/ros/foxy/src/rviz/rviz_ogre_vendor) by extensions ['colcon_meta']
+[0.889s] Level 1:colcon.colcon_core.package_identification:_identify(/home/iggy/ros/foxy/src/rviz/rviz_ogre_vendor) by extension 'colcon_meta'
+[0.889s] Level 1:colcon.colcon_core.package_identification:_identify(/home/iggy/ros/foxy/src/rviz/rviz_ogre_vendor) by extensions ['ament_gradle']
+[0.889s] Level 1:colcon.colcon_core.package_identification:_identify(/home/iggy/ros/foxy/src/rviz/rviz_ogre_vendor) by extension 'ament_gradle'
+[0.889s] Level 1:colcon.colcon_core.package_identification:_identify(/home/iggy/ros/foxy/src/rviz/rviz_ogre_vendor) by extensions ['ros']
+[0.889s] Level 1:colcon.colcon_core.package_identification:_identify(/home/iggy/ros/foxy/src/rviz/rviz_ogre_vendor) by extension 'ros'
+[0.892s] DEBUG:colcon.colcon_core.package_identification:Package '/home/iggy/ros/foxy/src/rviz/rviz_ogre_vendor' with type 'ros.ament_cmake' and name 'rviz_ogre_vendor'
+[0.893s] Level 1:colcon.colcon_core.package_identification:_identify(/home/iggy/ros/foxy/src/rviz/rviz_rendering) by extensions ['ignore', 'ignore_ament_install']
+[0.893s] Level 1:colcon.colcon_core.package_identification:_identify(/home/iggy/ros/foxy/src/rviz/rviz_rendering) by extension 'ignore'
+[0.893s] Level 1:colcon.colcon_core.package_identification:_identify(/home/iggy/ros/foxy/src/rviz/rviz_rendering) by extension 'ignore_ament_install'
+[0.894s] Level 1:colcon.colcon_core.package_identification:_identify(/home/iggy/ros/foxy/src/rviz/rviz_rendering) by extensions ['colcon_pkg']
+[0.894s] Level 1:colcon.colcon_core.package_identification:_identify(/home/iggy/ros/foxy/src/rviz/rviz_rendering) by extension 'colcon_pkg'
+[0.894s] Level 1:colcon.colcon_core.package_identification:_identify(/home/iggy/ros/foxy/src/rviz/rviz_rendering) by extensions ['colcon_meta']
+[0.894s] Level 1:colcon.colcon_core.package_identification:_identify(/home/iggy/ros/foxy/src/rviz/rviz_rendering) by extension 'colcon_meta'
+[0.894s] Level 1:colcon.colcon_core.package_identification:_identify(/home/iggy/ros/foxy/src/rviz/rviz_rendering) by extensions ['ament_gradle']
+[0.894s] Level 1:colcon.colcon_core.package_identification:_identify(/home/iggy/ros/foxy/src/rviz/rviz_rendering) by extension 'ament_gradle'
+[0.894s] Level 1:colcon.colcon_core.package_identification:_identify(/home/iggy/ros/foxy/src/rviz/rviz_rendering) by extensions ['ros']
+[0.894s] Level 1:colcon.colcon_core.package_identification:_identify(/home/iggy/ros/foxy/src/rviz/rviz_rendering) by extension 'ros'
+[0.897s] DEBUG:colcon.colcon_core.package_identification:Package '/home/iggy/ros/foxy/src/rviz/rviz_rendering' with type 'ros.ament_cmake' and name 'rviz_rendering'
+[0.898s] Level 1:colcon.colcon_core.package_identification:_identify(/home/iggy/ros/foxy/src/rviz/rviz_rendering_tests) by extensions ['ignore', 'ignore_ament_install']
+[0.898s] Level 1:colcon.colcon_core.package_identification:_identify(/home/iggy/ros/foxy/src/rviz/rviz_rendering_tests) by extension 'ignore'
+[0.898s] Level 1:colcon.colcon_core.package_identification:_identify(/home/iggy/ros/foxy/src/rviz/rviz_rendering_tests) by extension 'ignore_ament_install'
+[0.898s] Level 1:colcon.colcon_core.package_identification:_identify(/home/iggy/ros/foxy/src/rviz/rviz_rendering_tests) by extensions ['colcon_pkg']
+[0.898s] Level 1:colcon.colcon_core.package_identification:_identify(/home/iggy/ros/foxy/src/rviz/rviz_rendering_tests) by extension 'colcon_pkg'
+[0.898s] Level 1:colcon.colcon_core.package_identification:_identify(/home/iggy/ros/foxy/src/rviz/rviz_rendering_tests) by extensions ['colcon_meta']
+[0.898s] Level 1:colcon.colcon_core.package_identification:_identify(/home/iggy/ros/foxy/src/rviz/rviz_rendering_tests) by extension 'colcon_meta'
+[0.899s] Level 1:colcon.colcon_core.package_identification:_identify(/home/iggy/ros/foxy/src/rviz/rviz_rendering_tests) by extensions ['ament_gradle']
+[0.899s] Level 1:colcon.colcon_core.package_identification:_identify(/home/iggy/ros/foxy/src/rviz/rviz_rendering_tests) by extension 'ament_gradle'
+[0.899s] Level 1:colcon.colcon_core.package_identification:_identify(/home/iggy/ros/foxy/src/rviz/rviz_rendering_tests) by extensions ['ros']
+[0.899s] Level 1:colcon.colcon_core.package_identification:_identify(/home/iggy/ros/foxy/src/rviz/rviz_rendering_tests) by extension 'ros'
+[0.903s] DEBUG:colcon.colcon_core.package_identification:Package '/home/iggy/ros/foxy/src/rviz/rviz_rendering_tests' with type 'ros.ament_cmake' and name 'rviz_rendering_tests'
+[0.903s] Level 1:colcon.colcon_core.package_identification:_identify(/home/iggy/ros/foxy/src/rviz/rviz_visual_testing_framework) by extensions ['ignore', 'ignore_ament_install']
+[0.903s] Level 1:colcon.colcon_core.package_identification:_identify(/home/iggy/ros/foxy/src/rviz/rviz_visual_testing_framework) by extension 'ignore'
+[0.904s] Level 1:colcon.colcon_core.package_identification:_identify(/home/iggy/ros/foxy/src/rviz/rviz_visual_testing_framework) by extension 'ignore_ament_install'
+[0.904s] Level 1:colcon.colcon_core.package_identification:_identify(/home/iggy/ros/foxy/src/rviz/rviz_visual_testing_framework) by extensions ['colcon_pkg']
+[0.904s] Level 1:colcon.colcon_core.package_identification:_identify(/home/iggy/ros/foxy/src/rviz/rviz_visual_testing_framework) by extension 'colcon_pkg'
+[0.904s] Level 1:colcon.colcon_core.package_identification:_identify(/home/iggy/ros/foxy/src/rviz/rviz_visual_testing_framework) by extensions ['colcon_meta']
+[0.904s] Level 1:colcon.colcon_core.package_identification:_identify(/home/iggy/ros/foxy/src/rviz/rviz_visual_testing_framework) by extension 'colcon_meta'
+[0.904s] Level 1:colcon.colcon_core.package_identification:_identify(/home/iggy/ros/foxy/src/rviz/rviz_visual_testing_framework) by extensions ['ament_gradle']
+[0.904s] Level 1:colcon.colcon_core.package_identification:_identify(/home/iggy/ros/foxy/src/rviz/rviz_visual_testing_framework) by extension 'ament_gradle'
+[0.904s] Level 1:colcon.colcon_core.package_identification:_identify(/home/iggy/ros/foxy/src/rviz/rviz_visual_testing_framework) by extensions ['ros']
+[0.905s] Level 1:colcon.colcon_core.package_identification:_identify(/home/iggy/ros/foxy/src/rviz/rviz_visual_testing_framework) by extension 'ros'
+[0.907s] DEBUG:colcon.colcon_core.package_identification:Package '/home/iggy/ros/foxy/src/rviz/rviz_visual_testing_framework' with type 'ros.ament_cmake' and name 'rviz_visual_testing_framework'
+[0.907s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
